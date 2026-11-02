@@ -88,6 +88,12 @@ For the repeat-buyer question, subscription **rates** are compared instead of re
 
 The final report is a **single-page interactive dashboard** designed to provide a focused overview without overcrowding the canvas.
 
+### Dashboard preview
+
+![Customer Shopping Behavior Dashboard](assets/customer-shopping-behavior-dashboard.png)
+
+*The final single-page dashboard combines customer KPIs, subscription distribution, category performance, age-group analysis, and interactive slicers.*
+
 ### KPI cards
 
 - Total Customers
@@ -127,17 +133,22 @@ These findings describe the supplied dataset. They are useful for analysis pract
 ```text
 customer-shopping-behavior-analysis/
 |
+|-- assets/
+|   `-- customer-shopping-behavior-dashboard.png
 |-- Customer Shopping Behavior Analysis.ipynb
 |-- Customer Shopping Behavior Dashboard.pbix
 |-- customer_shopping_behavior.csv
 |-- clean_data.csv
 |-- customer_shopping_behavior_analysis.sql
 |-- README.md
+|-- THIRD_PARTY_NOTICES.md
 `-- .gitignore
 ```
 
 | File | Description |
 | --- | --- |
+| `assets/customer-shopping-behavior-dashboard.png` | Preview of the final Power BI dashboard |
+| `THIRD_PARTY_NOTICES.md` | Attribution and MIT licence notice for the reference project |
 | `Customer Shopping Behavior Analysis.ipynb` | Python data inspection, cleaning, feature creation, and export workflow |
 | `customer_shopping_behavior.csv` | Original customer shopping dataset |
 | `clean_data.csv` | Cleaned dataset used for SQL analysis and Power BI |
